@@ -9,7 +9,7 @@
         <!-- App -->
         <MappedFolder>
             <HostFolder>.\App\WeChat</HostFolder>
-            <SandboxFolder>C:\Program Files (x86)\Tencent\WeChat</SandboxFolder>
+            <SandboxFolder>C:\Program Files\Tencent\WeChat</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>

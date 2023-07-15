@@ -42,7 +42,7 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 新开一个**默认沙盒**，并正常安装 **QQ/QQNT/TIM**
 安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
 
-打开 **Tencent.wsb** 既可正常使用
+打开 **Tencent.wsb** 即可正常使用
 
 ## 挂载路径
 
