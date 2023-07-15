@@ -42,7 +42,11 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 新开一个**默认沙盒**，并正常安装 **QQ/QQNT/TIM**
 安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
 
-打开 **Tencent.wsb** 即可正常使用
+打开 **Tencent.wsb**
+安装 **微信** **QQ** **QQNT** **TIM** (可选)
+移动桌面快捷方式到任何位置，再移动回桌面(否则快捷方式会消失)
+
+操作完成后就可以正常使用了，关闭沙盒账号和数据都有所保留
 
 ## 挂载路径
 
