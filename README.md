@@ -20,6 +20,8 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 
 按照以下结构**创建空文件夹**
 
+也可以使用`mkdir.bat`来一键创建以下结构目录
+
 ``` text
 ├───App
 │   ├───QQ
