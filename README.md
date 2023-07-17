@@ -4,7 +4,8 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 ## 兼容性
 
-目前测试 **微信** **QQ** **QQNT** **TIM** 正常使用，其他未测试
+目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** 正常使用，其他未测试
+**注: 企业微信无法自动登录(检查设备)，只能每次重新登录**
 
 默认分配**2gb**内存，有需要可以自行修改 `<MemoryInMB>2048</MemoryInMB>`
 
@@ -57,6 +58,7 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 C:\Program Files (x86)\Common Files -> Data\Common Files
 C:\Users\WDAGUtilityAccount\Documents\Tencent Files -> Data\Documents\Tencent
 C:\Users\WDAGUtilityAccount\Documents\WeChat Files -> Data\Documents\WeChat
+C:\Users\WDAGUtilityAccount\Documents\WXWork -> Data\Documents\WXWork
 
 其余的请查看 Tencent.wsb 中的 MappedFolder
 ```

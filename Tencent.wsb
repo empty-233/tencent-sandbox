@@ -27,6 +27,11 @@
             <SandboxFolder>C:\Program Files\Tencent\QQNT</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\WXWork</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\WXWork</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
         <!-- Roaming -->
         <MappedFolder>
             <HostFolder>.\Data\Roaming\WeChat</HostFolder>
@@ -49,10 +54,21 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Tencent Files</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\WXWork</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WXWork</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
         <!-- Common Files -->
         <MappedFolder>
             <HostFolder>.\Data\Common Files</HostFolder>
             <SandboxFolder>C:\Program Files (x86)\Common Files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <!-- ProgramData -->
+        <MappedFolder>
+            <HostFolder>.\Data\ProgramData\Tencent</HostFolder>
+            <SandboxFolder>C:\ProgramData\Tencent</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <!-- 脚本 -->
