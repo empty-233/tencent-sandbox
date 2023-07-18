@@ -29,15 +29,18 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 │   ├───QQ
 │   ├───QQNT
 │   ├───TIM
-│   └───WeChat
+│   ├───WeChat
+│   └───WXWork
 ├───Data
 │   ├───Common Files
 │   ├───Documents
 │   │   ├───Tencent
-│   │   └───WeChat
+│   │   ├───WeChat
+│   │   └───WXWork
 │   ├───Roaming
 │   │   ├───Tencent
-│   │   └───WeChat
+│   │   ├───WeChat
+│   │   └───WXWork
 │   └───SysWOW64
 ├───Desktop
 └───Scripts
