@@ -2,6 +2,10 @@
 
 tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) 为腾讯全家桶创建沙盒的配置
 
+## 注意事项
+
+**Windows 10 不支持相对路径**，请把 **Tencent.wsb** 中的路径替换成**绝对路径**
+
 ## 兼容性
 
 目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** 正常使用，其他未测试
