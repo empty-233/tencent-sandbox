@@ -59,6 +59,16 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WXWork</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\Meeting</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\Tencent\WeMeet</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\Docs</HostFolder>
+            <SandboxFolder>C:\Program Files\TencentDocs</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
         <!-- Common Files -->
         <MappedFolder>
             <HostFolder>.\Data\Common Files</HostFolder>
