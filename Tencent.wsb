@@ -43,6 +43,16 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\Tencent</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\TencentDocs</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\TDAppDesktop</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\WeMeet</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\WeMeet</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
         <!-- Documents -->
         <MappedFolder>
             <HostFolder>.\Data\Documents\WeChat</HostFolder>
