@@ -9,14 +9,16 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 ## 兼容性
 
 目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** **腾讯会议** **腾讯文档** 正常使用
+
 如有其他需要，请提 Issue
 
 注: **企业微信无法自动登录(检查设备)，只能每次重新登录**
 
-默认分配**2gb**内存，有需要可以自行修改 `<MemoryInMB>2048</MemoryInMB>`
-**音频输入、剪贴板重定向默认开启**
+默认分配**2gb**内存，有需要可以自行修改 `<MemoryInMB>value</MemoryInMB>` (以 MB 为单位)
 
-**视频输入默认关闭**，有需要可以自行修改 `<VideoInput>false</VideoInput>`
+**音频输入、剪贴板重定**向默认开启
+
+**视频输入默认关闭**，有需要可以自行修改 `<VideoInput>value</VideoInput>`
 
 ## 使用教程
 
