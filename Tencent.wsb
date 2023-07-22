@@ -75,7 +75,7 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>.\App\Docs</HostFolder>
+            <HostFolder>.\App\TencentDocs</HostFolder>
             <SandboxFolder>C:\Program Files\TencentDocs</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>

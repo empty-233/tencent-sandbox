@@ -8,11 +8,15 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 ## 兼容性
 
-目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** 正常使用，其他未测试
+目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** **腾讯会议** **腾讯文档** 正常使用
+如有其他需要，请提 Issue
 
 注: **企业微信无法自动登录(检查设备)，只能每次重新登录**
 
 默认分配**2gb**内存，有需要可以自行修改 `<MemoryInMB>2048</MemoryInMB>`
+**音频输入、剪贴板重定向默认开启**
+
+**视频输入默认关闭**，有需要可以自行修改 `<VideoInput>false</VideoInput>`
 
 ## 使用教程
 
@@ -29,35 +33,40 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 也可以使用`mkdir.bat`来一键创建以下结构目录
 
 ``` text
-├───App
-│   ├───QQ
-│   ├───QQNT
-│   ├───TIM
-│   ├───WeChat
-│   └───WXWork
-├───Data
-│   ├───Common Files
-│   ├───Documents
-│   │   ├───Tencent
-│   │   ├───WeChat
-│   │   └───WXWork
-│   ├───Roaming
-│   │   ├───Tencent
-│   │   ├───WeChat
-│   │   └───WXWork
-│   └───SysWOW64
-├───Desktop
-└───Scripts
+├─App
+│  ├─Meeting
+│  ├─QQ
+│  ├─QQNT
+│  ├─TencentDocs
+│  ├─TIM
+│  ├─WeChat
+│  └─WXWork
+├─Data
+│  ├─Common Files
+│  ├─Documents
+│  │  ├─Tencent
+│  │  ├─WeChat
+│  │  └─WXWork
+│  ├─ProgramData
+│  │  └─Tencent
+│  ├─Roaming
+│  │  ├─Tencent
+│  │  ├─TencentDocs
+│  │  ├─WeChat
+│  │  └─WeMeet
+│  └─SysWOW64
+├─Desktop
+└─Scripts
 ```
 
-新开一个**默认沙盒**，并正常安装 **QQ/QQNT/TIM**
+新开一个**默认沙盒**，并正常安装 **QQ**
 安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
 
 打开 **Tencent.wsb**
-安装 **微信** **QQ** **QQNT** **TIM** (可选)
+安装**经过测试**的软件 (可选)
 移动桌面快捷方式到任何位置，再移动回桌面(否则快捷方式会消失)
 
-操作完成后就可以正常使用了，关闭沙盒账号和数据都有所保留
+操作完成后就可以正常使用了，**关闭沙盒账号和数据都有所保留**
 
 ## 挂载路径
 
