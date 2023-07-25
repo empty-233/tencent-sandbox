@@ -24,15 +24,11 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 启用 `Windows 沙盒`
 
-git clone 本项目
+git clone 本项目，或者点击上面的**下载本项目** `Code->Download ZIP`
 
 ``` bash
 git clone https://github.com/empty-233/tencent-sandbox.git
 ```
-
-或者
-
-单独下载 `mkdir.bat` 和 `Tencent.wsb`
 
 
 
@@ -71,7 +67,9 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
 
 打开 **Tencent.wsb**
+
 安装**经过测试**的软件 (可选)
+
 移动桌面快捷方式到任何位置，再移动回桌面(否则快捷方式会消失)
 
 操作完成后就可以正常使用了，**关闭沙盒账号和数据都有所保留**
