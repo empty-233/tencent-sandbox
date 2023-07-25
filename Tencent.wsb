@@ -101,17 +101,18 @@
         <MappedFolder> 
           <HostFolder>.\Data\SysWOW64</HostFolder> 
           <SandboxFolder>C:\Windows\SysWOW64</SandboxFolder> 
-          <ReadOnly>false</ReadOnly> 
+          <ReadOnly>true</ReadOnly> 
         </MappedFolder>
     </MappedFolders>
     <!-- 音频 -->
     <AudioInput>Enable</AudioInput>
+    <!-- 视频 -->
+    <VideoInput>false</VideoInput>
     <!-- 内存限制 -->
     <MemoryInMB>2048</MemoryInMB>
     <!-- 开机运行脚本 -->
     <LogonCommand>
         <Command>C:\Scripts\sandbox-setup.cmd</Command>
-        <Command>C:\Program Files (x86)\Common Files\Tencent\QQProtect\Bin\QQProtect.exe</Command>
     </LogonCommand>
     <!-- vGpu -->
     <vGPU>Enable</vGPU>
