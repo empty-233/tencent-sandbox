@@ -24,7 +24,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 启用 `Windows 沙盒`
 
-git clone 本项目
+git clone 本项目，或者点击上面的**下载本项目** `Code->Download ZIP`
 
 ``` bash
 git clone https://github.com/empty-233/tencent-sandbox.git
@@ -32,7 +32,7 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 
 按照以下结构**创建空文件夹**
 
-也可以使用`mkdir.bat`来一键创建以下结构目录
+也可以使用`mkdir.bat`来**一键创建以下结构目录**
 
 ``` text
 ├─App
