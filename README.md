@@ -24,13 +24,11 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 启用 `Windows 沙盒`
 
-git clone 本项目，或者点击上面的**下载本项目** `Code->Download ZIP`
+git clone 本项目，**或者点击`Releases`下载**
 
 ``` bash
 git clone https://github.com/empty-233/tencent-sandbox.git
 ```
-
-
 
 然后按照以下结构**创建空文件夹**
 
