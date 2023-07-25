@@ -95,7 +95,7 @@
         <MappedFolder>
             <HostFolder>.\Scripts</HostFolder>
             <SandboxFolder>C:\Scripts</SandboxFolder> 
-            <ReadOnly>false</ReadOnly> 
+            <ReadOnly>true</ReadOnly> 
         </MappedFolder>
         <!-- SysWOW64 -->
         <MappedFolder> 
