@@ -26,15 +26,17 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 git clone 本项目
 
-或者
-
-单独下载 `mkdir.bat` 和 `Tencent.wsb`
-
 ``` bash
 git clone https://github.com/empty-233/tencent-sandbox.git
 ```
 
-按照以下结构**创建空文件夹**
+或者
+
+单独下载 `mkdir.bat` 和 `Tencent.wsb`
+
+
+
+然后按照以下结构**创建空文件夹**
 
 也可以使用`mkdir.bat`来一键创建以下结构目录
 
