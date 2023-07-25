@@ -4,7 +4,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 ## 注意事项
 
-**Windows 10 不支持相对路径**，请把 **Tencent.wsb** 中的路径替换成**绝对路径**
+**Windows 10 不支持相对路径**，如果使用该版本系统，请把 **Tencent.wsb** 中的路径替换成**绝对路径**
 
 ## 兼容性
 
@@ -12,11 +12,11 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 如有其他需要，请提 Issue
 
-注: **企业微信无法自动登录(检查设备)，只能每次重新登录**
+注: **企业微信无法自动登录(检查设备ID)，只能每次重新登录**
 
 默认分配**2gb**内存，有需要可以自行修改 `<MemoryInMB>value</MemoryInMB>` (以 MB 为单位)
 
-**音频输入、剪贴板重定**向默认开启
+**音频输入、剪贴板重定向**默认开启
 
 **视频输入默认关闭**，有需要可以自行修改 `<VideoInput>value</VideoInput>`
 
@@ -25,6 +25,10 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 启用 `Windows 沙盒`
 
 git clone 本项目
+
+或者
+
+单独下载 `mkdir.bat` 和 `Tencent.wsb`
 
 ``` bash
 git clone https://github.com/empty-233/tencent-sandbox.git
@@ -73,11 +77,5 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 ## 挂载路径
 
 ``` text
-桌面 -> Desktop
-C:\Program Files (x86)\Common Files -> Data\Common Files
-C:\Users\WDAGUtilityAccount\Documents\Tencent Files -> Data\Documents\Tencent
-C:\Users\WDAGUtilityAccount\Documents\WeChat Files -> Data\Documents\WeChat
-C:\Users\WDAGUtilityAccount\Documents\WXWork -> Data\Documents\WXWork
-
-其余的请查看 Tencent.wsb 中的 MappedFolder
+请查看 Tencent.wsb 中的 MappedFolder 配置项
 ```
