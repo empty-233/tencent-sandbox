@@ -53,6 +53,10 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 
 ## 挂载路径
 
-``` text
-请查看 Tencent.wsb 中的 MappedFolder 配置项
-```
+请查看 Tencent.wsb 中的 `MappedFolder` 配置项
+
+qq保存的路径: Data\Documents\Tencent\ (qqid) \FileRecv
+
+微信保存的路径: Data\Documents\WeChat\ (wxid) \FileStorage\File
+
+其余的请查看`Data\Documents`
