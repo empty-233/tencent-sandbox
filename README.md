@@ -6,6 +6,8 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 **Windows 10 不支持相对路径**，如果使用该版本系统，请把 **Tencent.wsb** 中的路径替换成**绝对路径**
 
+**家庭版**不支持沙盒
+
 ## 兼容性
 
 目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** **腾讯会议** **腾讯文档** 正常使用
@@ -13,6 +15,8 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 如有其他需要，请提 Issue
 
 注: **企业微信无法自动登录(检查设备ID)，只能每次重新登录**
+
+## 沙盒配置
 
 默认分配**2GB**内存，有需要可以自行修改 `<MemoryInMB>value</MemoryInMB>` (以 MB 为单位)
 
@@ -34,36 +38,7 @@ git clone 本项目，**或者点击`Releases`下载**
 git clone https://github.com/empty-233/tencent-sandbox.git
 ```
 
-在根目录按照以下结构**创建空文件夹**
-
-也可以使用`mkdir.bat`来**一键创建以下结构目录**
-
-``` text
-├─App
-│  ├─Meeting
-│  ├─QQ
-│  ├─QQNT
-│  ├─TencentDocs
-│  ├─TIM
-│  ├─WeChat
-│  └─WXWork
-├─Data
-│  ├─Common Files
-│  ├─Documents
-│  │  ├─Tencent
-│  │  ├─WeChat
-│  │  └─WXWork
-│  ├─ProgramData
-│  │  └─Tencent
-│  ├─Roaming
-│  │  ├─Tencent
-│  │  ├─TencentDocs
-│  │  ├─WeChat
-│  │  └─WeMeet
-│  └─SysWOW64
-├─Desktop
-└─Scripts
-```
+使用`mkdir.bat`来**一键创建以下结构目录**
 
 新开一个**默认沙盒**，并正常安装 **QQ**
 安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
