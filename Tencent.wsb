@@ -107,7 +107,7 @@
     <!-- 音频 -->
     <AudioInput>Enable</AudioInput>
     <!-- 视频 -->
-    <VideoInput>false</VideoInput>
+    <VideoInput>Disable</VideoInput>
     <!-- 内存限制 -->
     <MemoryInMB>2048</MemoryInMB>
     <!-- 开机运行脚本 -->
