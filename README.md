@@ -4,7 +4,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 ## 注意事项
 
-**Windows 10 不支持相对路径**，如果使用该版本系统，请把 **Tencent.wsb** 中的路径替换成**绝对路径**
+**Windows 10 不支持相对路径**，如果使用该版本系统，请先运行"win10_init.py"，或者把 **Tencent.wsb** 中的相对路径替换成**绝对路径**
 
 **家庭版**不支持沙盒
 

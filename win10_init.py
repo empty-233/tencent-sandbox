@@ -124,7 +124,7 @@ wsb_template = r'''<Configuration>
 
 relative_dir_identifer = "|NOW_DIR|"
 relative_dir = os.path.dirname(os.path.abspath(__file__))
-print ("获取到的相对路径" + relative_dir)
+print ("获取到的相对路径: " + relative_dir)
 
 # replace relative dir
 wsb_template = wsb_template.replace(relative_dir_identifer, relative_dir)
