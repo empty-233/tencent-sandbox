@@ -4,9 +4,23 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 ## 注意事项
 
-**Windows 10 不支持相对路径**，如果使用该版本系统，请把 **Tencent.wsb** 中的路径替换成**绝对路径**
+### 一： **Windows 10 用户**
+#### 1.有python环境：
+请先运行 win10_init.py
 
-**家庭版**不支持沙盒
+#### 2.没有python环境：
+1. 复制你clone的项目目录
+2. 按键盘上的Win + R
+2. 输入 powershell, 按回车
+3. 在powershell中输入 `cd 你的项目目录`，按回车
+4. 输入 `PowerShell -ExecutionPolicy Bypass -File ".\win10_init.ps1"`。  
+
+#### 3.不明白以上两点如何操作
+1. 用文本方式打开Tencent.wsb
+2. 将**所有**形如`<HostFolder>.\tencent-sandbox\xxxxxxx</HostFolder>` 的行当中的 `./\` 手动修改为你clone的项目的目录。
+
+
+### 二： **家庭版**不支持沙盒
 
 ## 兼容性
 
