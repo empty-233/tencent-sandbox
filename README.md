@@ -56,8 +56,7 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 
 使用`mkdir.bat`来**一键创建以下结构目录**
 
-新开一个**默认沙盒**，并正常安装 **QQ**
-安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
+**按照下面可选项配置`SysWOW64`**
 
 打开**Tencent.wsb**
 
@@ -66,6 +65,20 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 移动桌面快捷方式到任何位置，再移动回桌面(否则快捷方式会消失)
 
 操作完成后就可以正常使用了，**关闭沙盒账号和数据都有所保留**
+
+### 可选项
+
+下列方式二选一，**默认不挂载系统SysWOW64**
+
+#### 复制(默认)
+
+新开一个**默认沙盒**，并正常安装 **QQ**
+
+安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64` (不然qq运行一段时间后会崩溃)
+
+#### 挂载
+
+修改 `<HostFolder>.\Data\SysWOW64</HostFolder>` 为 `<HostFolder>C:\Windows\SysWOW64</HostFolder>`
 
 ## 挂载路径
 
