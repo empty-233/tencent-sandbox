@@ -6,18 +6,12 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 ### **Windows 10 用户**
 
-#### 有python环境
-
-请先运行 win10_init.py
-
-#### 没有python环境
-
 1. 进入你 clone/下载 的**项目目录**
 2. 按键盘上的Win + R
 3. 输入 powershell, 按回车
 4. 输入 `PowerShell -ExecutionPolicy Bypass -File ".\win10_init.ps1"`。  
 
-#### 不明白以上两点如何操作
+#### 不明白如何操作
 
 1. 用文本方式打开Tencent.wsb
 2. 将**所有**例如`<HostFolder>.\tencent-sandbox\xxxxxxx</HostFolder>` 中的 `.\` 手动修改为你 clone/下载 的**项目目录**。
