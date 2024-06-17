@@ -2,7 +2,17 @@
 
 tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) 为腾讯全家桶创建沙盒的配置
 
+## 更多配置
+
+请不要在issue里面询问**除腾讯全家桶之外的配置**
+
+**[更多配置](https://blog.kongwu.top/p/sandbox-configuration)**，欢迎[联系](mailto:mail@kongwu.top)作者提供更多配置
+
 ## 注意事项
+
+**家庭版**不支持沙盒
+
+请根据 [可选项](#可选项) **更改配置**
 
 ### **Windows 10 用户**
 
@@ -11,12 +21,10 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 3. 输入 powershell, 按回车
 4. 输入 `PowerShell -ExecutionPolicy Bypass -File ".\win10_init.ps1"`。  
 
-#### 不明白如何操作
+不明白如何操作:
 
 1. 用文本方式打开Tencent.wsb
 2. 将**所有**例如`<HostFolder>.\tencent-sandbox\xxxxxxx</HostFolder>` 中的 `.\` 手动修改为你 clone/下载 的**项目目录**。
-
-### **家庭版**不支持沙盒
 
 ## 兼容性
 
