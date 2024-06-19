@@ -6,7 +6,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 请不要在issue里面询问**除腾讯全家桶之外的配置**
 
-**[更多配置](https://blog.kongwu.top/p/sandbox-configuration)**，欢迎[联系](mailto:mail@kongwu.top)作者提供更多配置
+**[更多配置](https://blog.kongwu.top/p/sandbox-configuration)**，欢迎在blog下面的评论提供更多配置
 
 ## 注意事项
 
