@@ -35,7 +35,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 **家庭版**不支持沙盒
 
-默认挂载宿主 `SysWOW64` ，出现问题请使用[复制选项](#复制)
+默认挂载系统 `SysWOW64` ，出现问题请使用[复制选项](#复制)
 
 ### **Windows 10 用户**
 
@@ -75,9 +75,9 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 操作完成后就可以正常使用了，**关闭沙盒账号和数据都有所保留**
 
-### 可选项
+### SysWOW64 配置
 
-下列方式二选一，**默认不挂载系统SysWOW64**
+默认**挂载系统SysWOW64**
 
 #### 挂载(默认)
 
@@ -87,7 +87,7 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 新开一个**默认沙盒**，并正常安装所需软件
 
-安装完成之后复制 `C:\Windows\SysWOW64` 到 `Data\SysWOW64`
+安装完成之后复制**沙盒内** `C:\Windows\SysWOW64` 到 `Data\SysWOW64`
 
 修改 `<HostFolder>C:\Windows\SysWOW64</HostFolder>` 为 `<HostFolder>.\Data\SysWOW64</HostFolder>`
 
