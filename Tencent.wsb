@@ -99,7 +99,7 @@
         </MappedFolder>
         <!-- SysWOW64 -->
         <MappedFolder> 
-          <HostFolder>.\Data\SysWOW64</HostFolder> 
+          <HostFolder>C:\Windows\SysWOW64</HostFolder> 
           <SandboxFolder>C:\Windows\SysWOW64</SandboxFolder> 
           <ReadOnly>true</ReadOnly> 
         </MappedFolder>
