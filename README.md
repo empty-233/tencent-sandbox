@@ -99,4 +99,6 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 * 微信保存的路径: `Data\Documents\WeChat\ (wxid) \FileStorage\File`
 
+* 微信测试版保存的路径: `Data\Documents\xwechat_files\ (wxid) \msg\file`
+
 * 其余的请查看 `Data\Documents`
